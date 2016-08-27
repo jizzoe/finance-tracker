@@ -1,0 +1,607 @@
+{
+   "configurationList":[
+      {
+         "mainCategory":{
+            "name":" Mobile",
+            "fullName":"Transfer - Mobile",
+            "childCategory":{
+               "name":"Mobile",
+               "fullName":"Transfer"
+            }
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Auto",
+            "fullName":"Transfer - Auto",
+            "childCategory":{
+               "name":"Auto",
+               "fullName":"Transfer"
+            }
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Phone",
+            "fullName":"Transfer - Phone",
+            "childCategory":{
+               "name":"Phone",
+               "fullName":"Transfer"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"FUNDS TRANSFER FROM ",
+               "fullName":"FUNDS TRANSFER FROM "
+            },
+            {
+               "name":"TELEPHONE TRANSFER",
+               "fullName":"TELEPHONE TRANSFER"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Online",
+            "fullName":"Transfer - Online",
+            "childCategory":{
+               "name":"Online",
+               "fullName":"Transfer"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"ONLINE TRANSFER TO",
+               "fullName":"ONLINE TRANSFER TO"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Lyft",
+            "fullName":"Lyft"
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Bookstore",
+            "fullName":"Bookstore"
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Gas Station / Convience Store",
+            "fullName":"Gas Station / Convience Store"
+         },
+         "subCategories":[
+            {
+               "name":"CMSVEND (Kirkman Point Snack Machines)",
+               "fullName":"CMSVEND (Kirkman Point Snack Machines)"
+            },
+            {
+               "name":"KANGAROO",
+               "fullName":"KANGAROO"
+            },
+            {
+               "name":"CITGO",
+               "fullName":"CITGO"
+            },
+            {
+               "name":"FOOD MART",
+               "fullName":"FOOD MART"
+            },
+            {
+               "name":"SHELL",
+               "fullName":"SHELL"
+            },
+            {
+               "name":" 7-ELEVEN",
+               "fullName":" 7-ELEVEN"
+            },
+            {
+               "name":"SPEEDWAY",
+               "fullName":"SPEEDWAY"
+            },
+            {
+               "name":"RACETRAC",
+               "fullName":"RACETRAC"
+            },
+            {
+               "name":"SUNOCO",
+               "fullName":"SUNOCO"
+            },
+            {
+               "name":"MARATHON",
+               "fullName":"MARATHON"
+            },
+            {
+               "name":"PETRO",
+               "fullName":"PETRO"
+            },
+            {
+               "name":"WAWA",
+               "fullName":"WAWA"
+            },
+            {
+               "name":"MURPHY",
+               "fullName":"MURPHY"
+            },
+            {
+               "name":"STOP & GO",
+               "fullName":"STOP & GO"
+            },
+            {
+               "name":"FAST TRACK ",
+               "fullName":"FAST TRACK "
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Fast Food",
+            "fullName":"Eat Out - Fast Food",
+            "childCategory":{
+               "name":"Fast Food",
+               "fullName":"Eat Out"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"BURGER KING",
+               "fullName":"BURGER KING"
+            },
+            {
+               "name":"KFC",
+               "fullName":"KFC"
+            },
+            {
+               "name":"CHICK-FIL",
+               "fullName":"CHICK-FIL"
+            },
+            {
+               "name":"MCDONALD",
+               "fullName":"MCDONALD"
+            },
+            {
+               "name":"SUBWAY",
+               "fullName":"SUBWAY"
+            },
+            {
+               "name":"PANDA EXPRESS",
+               "fullName":"PANDA EXPRESS"
+            },
+            {
+               "name":" STEAK-N-SHAKE",
+               "fullName":" STEAK-N-SHAKE"
+            },
+            {
+               "name":"WENDY",
+               "fullName":"WENDY"
+            },
+            {
+               "name":"CHECKERS",
+               "fullName":"CHECKERS"
+            },
+            {
+               "name":"CHURCH'S",
+               "fullName":"CHURCH'S"
+            },
+            {
+               "name":"DAIRY QUEEN",
+               "fullName":"DAIRY QUEEN"
+            },
+            {
+               "name":"SONIC",
+               "fullName":"SONIC"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Big",
+            "fullName":"Eat Out - Restaurant - Big",
+            "childCategory":{
+               "name":"Big",
+               "fullName":"Eat Out - Restaurant",
+               "childCategory":{
+                  "name":"Restaurant",
+                  "fullName":"Eat Out"
+               }
+            }
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Small",
+            "fullName":"Eat Out - Restaurant - Small",
+            "childCategory":{
+               "name":"Small",
+               "fullName":"Eat Out - Restaurant",
+               "childCategory":{
+                  "name":"Restaurant",
+                  "fullName":"Eat Out"
+               }
+            }
+         },
+         "subCategories":[
+            {
+               "name":"MIGHTY WINGS",
+               "fullName":"MIGHTY WINGS"
+            },
+            {
+               "name":"SUBS",
+               "fullName":"SUBS"
+            },
+            {
+               "name":"BUFFET",
+               "fullName":"BUFFET"
+            },
+            {
+               "name":"INDIAN",
+               "fullName":"INDIAN"
+            },
+            {
+               "name":"GRILL",
+               "fullName":"GRILL"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"ELEVEN",
+            "fullName":" 7-ELEVEN",
+            "childCategory":{
+               "name":"ELEVEN",
+               "fullName":"7"
+            }
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Mart",
+            "fullName":"Wal-Mart",
+            "childCategory":{
+               "name":"Mart",
+               "fullName":"Wal"
+            }
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Cash Withdrawal",
+            "fullName":"Cash Withdrawal"
+         },
+         "subCategories":[
+            {
+               "name":"WITHDRAWAL AT",
+               "fullName":"WITHDRAWAL AT"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Payroll",
+            "fullName":"Payroll"
+         },
+         "subCategories":[
+            {
+               "name":"WALT DISNEY",
+               "fullName":"WALT DISNEY"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Hotel",
+            "fullName":"Hotel"
+         },
+         "subCategories":[
+            {
+               "name":"HOTEL",
+               "fullName":"HOTEL"
+            },
+            {
+               "name":"RODEWAY INN",
+               "fullName":"RODEWAY INN"
+            },
+            {
+               "name":"LA QUINTA",
+               "fullName":"LA QUINTA"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Small",
+            "fullName":"Dept Store - Small",
+            "childCategory":{
+               "name":"Small",
+               "fullName":"Dept Store"
+            }
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Parking",
+            "fullName":"Parking"
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Cell",
+            "fullName":"Phone - Cell",
+            "childCategory":{
+               "name":"Cell",
+               "fullName":"Phone"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"CRICKET",
+               "fullName":"CRICKET"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Banking Fees",
+            "fullName":"Banking Fees"
+         },
+         "subCategories":[
+            {
+               "name":"MAINTENANCE FEE",
+               "fullName":"MAINTENANCE FEE"
+            },
+            {
+               "name":"WIRE TRANSFER FEE",
+               "fullName":"WIRE TRANSFER FEE"
+            },
+            {
+               "name":"FIFTH THIRD PAID THIS",
+               "fullName":"FIFTH THIRD PAID THIS"
+            },
+            {
+               "name":"5/3 ID ALERT",
+               "fullName":"5/3 ID ALERT"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Gaming",
+            "fullName":"Online - Gaming",
+            "childCategory":{
+               "name":"Gaming",
+               "fullName":"Online"
+            }
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Drug Store / Pharmacy",
+            "fullName":"Drug Store / Pharmacy"
+         },
+         "subCategories":[
+
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"tv",
+            "fullName":"Online - streaming -tv",
+            "childCategory":{
+               "name":"tv",
+               "fullName":"Online - streaming",
+               "childCategory":{
+                  "name":"streaming",
+                  "fullName":"Online"
+               }
+            }
+         },
+         "subCategories":[
+            {
+               "name":"ROKU",
+               "fullName":"ROKU"
+            },
+            {
+               "name":"NETFLIX",
+               "fullName":"NETFLIX"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Leasing / Renting",
+            "fullName":"Leasing / Renting"
+         },
+         "subCategories":[
+            {
+               "name":"PROGRESSIVE LEASIN",
+               "fullName":"PROGRESSIVE LEASIN"
+            },
+            {
+               "name":"GLOBAL PROCESSING",
+               "fullName":"GLOBAL PROCESSING"
+            },
+            {
+               "name":"ACCEPTANCENOW",
+               "fullName":"ACCEPTANCENOW"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Books",
+            "fullName":"Online - Books",
+            "childCategory":{
+               "name":"Books",
+               "fullName":"Online"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"KINDLE",
+               "fullName":"KINDLE"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" music",
+            "fullName":"Online - streaming - music",
+            "childCategory":{
+               "name":"music",
+               "fullName":"Online - streaming",
+               "childCategory":{
+                  "name":"streaming",
+                  "fullName":"Online"
+               }
+            }
+         },
+         "subCategories":[
+            {
+               "name":"NAPSTER",
+               "fullName":"NAPSTER"
+            },
+            {
+               "name":"SIRIUSXM",
+               "fullName":"SIRIUSXM"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Transportation",
+            "fullName":"Transportation"
+         },
+         "subCategories":[
+            {
+               "name":"U-HAUL ",
+               "fullName":"U-HAUL "
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Clothing",
+            "fullName":"Online - Purchases - Clothing",
+            "childCategory":{
+               "name":"Clothing",
+               "fullName":"Online - Purchases",
+               "childCategory":{
+                  "name":"Purchases",
+                  "fullName":"Online"
+               }
+            }
+         },
+         "subCategories":[
+            {
+               "name":"\"BOMBFELL,",
+               "fullName":"\"BOMBFELL,"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Wire",
+            "fullName":"Money Service - Wire",
+            "childCategory":{
+               "name":"Wire",
+               "fullName":"Money Service"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"AT WU",
+               "fullName":"AT WU"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Utility",
+            "fullName":"Utility"
+         },
+         "subCategories":[
+            {
+               "name":"KUA",
+               "fullName":"KUA"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Purchases",
+            "fullName":"Online - Purchases",
+            "childCategory":{
+               "name":"Purchases",
+               "fullName":"Online"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"AMAZON",
+               "fullName":"AMAZON"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":"Doctor",
+            "fullName":"Doctor"
+         },
+         "subCategories":[
+            {
+               "name":"ORLANDO BEHAVIORAL",
+               "fullName":"ORLANDO BEHAVIORAL"
+            }
+         ]
+      },
+      {
+         "mainCategory":{
+            "name":" Supermarket",
+            "fullName":"Food - Supermarket",
+            "childCategory":{
+               "name":"Supermarket",
+               "fullName":"Food"
+            }
+         },
+         "subCategories":[
+            {
+               "name":"PUBLIX",
+               "fullName":"PUBLIX"
+            }
+         ]
+      }
+   ]
+}

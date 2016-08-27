@@ -1,0 +1,86 @@
+Get all Events
+curl -X GET -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-events
+
+curl -X GET -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-events/current
+
+curl -X GET -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-events/non-current
+
+------------ ------------ ------------ ------------ ------------ ------------ ------------ ------------ ------------ ------------ 
+
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/parse-transactions
+
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: multipart/form-data" -F "file=@/git/swingtech/swing-tech/sandbox/finance-tracker/rest-service/src/main/resources/finance-data/transactions/transactions-fifththird-jizzoerice-360-05.01.2016-08.04.2016.csv" -F "file=@/git/swingtech/swing-tech/sandbox/finance-tracker/rest-service/src/main/resources/finance-data/transactions/transactions-suntrust-jizzoerice-cash_checking-05.01.2016-08.04.2016.csv" http://localhost:8080/upload-transactions
+
+
+Event Start
+{
+	"userName": "jizzoe",
+	"eventStartTimestamp": "2016-07-02T20:04:41.048",
+	"moneyAtStart": 500.0,
+	"notes": "Hey I did it"
+}
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-event-start -d '{"userName":"jizzoe","eventStartTimestamp":"2016-07-02T20:04:41.048","moneyAtStart":500.0,"notes":"Hey I did it"}'
+
+Event End
+{
+	"userName": "jizzoe",
+	"eventEndTimestamp": "2016-07-02T20:04:53.017",
+	"moneyAtEnd": 100.0,
+	"notes": "Hey I did it"
+}
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-event-end -d '{"userName":"jizzoe","eventEndTimestamp":"2016-07-02T20:04:53.017","moneyAtEnd":100.0,"notes":"Hey I did it"}'
+
+
+
+
+Event Start
+{
+	"userName": "jizzoe",
+	"eventStartTimestamp": "2016-07-02T20:05:41.048",
+	"moneyAtStart": 100.0,
+	"notes": "Hey I did it"
+}
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-event-start -d '{"userName":"jizzoe","eventStartTimestamp":"2016-07-02T20:05:41.048","moneyAtStart":100.0,"notes":"Hey I did it"}'
+
+Event End
+{
+	"userName": "jizzoe",
+	"eventEndTimestamp": "2016-07-02T20:06:53.017",
+	"moneyAtEnd": 150.0,
+	"notes": "Hey I did it"
+}
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-event-end -d '{"userName":"jizzoe","eventEndTimestamp":"2016-07-02T20:06:53.017","moneyAtEnd":150.0,"notes":"Hey I did it"}'
+
+
+
+Event Start
+{
+	"userName": "jizzoe",
+	"eventStartTimestamp": "2016-07-02T20:07:41.048",
+	"moneyAtStart": 100.0,
+	"notes": "Hey I did it"
+}
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-event-start -d '{"userName":"jizzoe","eventStartTimestamp":"2016-07-02T20:07:41.048","moneyAtStart":100.0,"notes":"Hey I did it"}'
+
+Event End
+{
+	"userName": "jizzoe",
+	"eventEndTimestamp": "2016-07-02T20:07:53.017",
+	"moneyAtEnd": 150.0,
+	"notes": "Hey I did it"
+}
+
+curl -X POST -i -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/table-event-end -d '{"userName":"jizzoe","eventEndTimestamp":"2016-07-02T20:07:53.017","moneyAtEnd":150.0,"notes":"Hey I did it"}'
+
+
+
+
+
+

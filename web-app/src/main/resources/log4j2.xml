@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <File name="MAIN" fileName="logs/server.log" append="false">
+            <PatternLayout pattern="%t %-5p %c{2} - %m%n" />
+        </File>
+        <File name="CONTROLLER" fileName="logs/controller.log" append="false">
+            <PatternLayout pattern="%t %-5p %c{2} - %m%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.disney.webapps.vpg.controller" level="info">
+            <AppenderRef ref="CONTROLLER" />
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="MAIN" />
+        </Root>
+    </Loggers>
+</Configuration>

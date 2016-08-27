@@ -1,0 +1,43 @@
+
+curl -X POST http://localhost:9200/st_financetracker -d '
+curl -X POST http://localhost:9200/st_financetracker -d '
+{"settings":{"number_of_shards":1},"mappings":{"transaction":{"properties":{"transactionId":{"type":"string","index":"not_analyzed"},"description":{"type":"string","index":"not_analyzed"},"descriptionSearchText":{"type":"string"},"checkNumber":{"type":"string","index":"not_analyzed"},"transactionDateTime":{"type":"date"},"transactionAmount":{"type":"double"},"transactionDebitAmount":{"type":"double"},"transactionCreditAmount":{"type":"double"},"endingBalance":{"type":"double"},"transactionSource":{"properties":{"transactionSource":{"type":"string","index":"not_analyzed"},"userName":{"type":"string","index":"not_analyzed"},"accountName":{"type":"string","index":"not_analyzed"},"dateRangeString":{"type":"string","index":"not_analyzed"},"startDateRange":{"type":"date"},"endDateRange":{"type":"date"},"fileName":{"type":"string","index":"not_analyzed"}}},"mainCategory":{"properties":{"name":{"type":"string","index":"not_analyzed"},"fullName":{"type":"string","index":"not_analyzed"},"childCategory":{"properties":{"name":{"type":"string","index":"not_analyzed"},"fullName":{"type":"string","index":"not_analyzed"}}}}},"subCategories":{"properties":{"name":{"type":"string","index":"not_analyzed"},"fullName":{"type":"string","index":"not_analyzed"}}}}}}}
+'
+
+
+
+
+{
+   "transactionId":"06010016MOBILEAPPTRANSFERFROM100015501715",
+   "transactionSource":{
+      "transactionSource":"suntrust",
+      "userName":"jizzoerice",
+      "accountName":"cash_checking",
+      "dateRangeString":"05.01.2016 - 08.04.2016",
+      "startDateRange":"2016-05-01T00:00:00.000",
+      "endDateRange":"2016-08-04T00:00:00.000",
+      "fileName":"transactions-suntrust-jizzoerice-cash_checking-05.01.2016-08.04.2016.csv"
+   },
+   "description":" MOBILE APP TRANSFER FROM 100015",
+   "descriptionSearchText":" MOBILE APP TRANSFER FROM 100015",
+   "checkNumber":"0",
+   "transactionDateTime":"0016-06-01T00:00:00.000",
+   "transactionAmount":5.0,
+   "transactionDebitAmount":0.0,
+   "transactionCreditAmount":5.0,
+   "endingBalance":17.15,
+   "mainCategory":{
+      "name":" Mobile",
+      "fullName":"Transfer - Mobile",
+      "childCategory":{
+         "name":"Mobile",
+         "fullName":"Transfer"
+      }
+   },
+   "subCategories":[
+      {
+         "name":"MOBILE APP TRANSFER",
+         "fullName":"MOBILE APP TRANSFER"
+      }
+   ]
+}
